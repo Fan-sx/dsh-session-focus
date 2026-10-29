@@ -2,3 +2,6 @@ node_modules/
 *.log
 .DS_Store
 Thumbs.db
+
+# Local debugging helpers that assume this machine's paths
+scripts/
