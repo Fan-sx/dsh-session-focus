@@ -8,6 +8,8 @@ This plugin adds the missing layer. It does not replace the sidebar, add a float
 
 ## What it does
 
+![The radar panel](docs/radar.png)
+
 **Mark a Session, one click, three places.** The 16px cell before a Session's title cycles `none → focus → parked → none`. The same cycle is on the hover card and on a chip in the conversation header.
 
 - **Focus** — an amber bar. This is what you are pushing on now.
