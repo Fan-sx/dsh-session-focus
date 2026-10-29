@@ -1,0 +1,6 @@
+# dsh-session-focus bundle 层：插入焦点标记插件行。
+# Host 侧只承担"把这一行挂进 Loader"的作用，界面全部由 client 半边实现。
+- insert:
+    - id: dsh-session-focus
+      name: 'dsh-session-focus'
+      config: {}
