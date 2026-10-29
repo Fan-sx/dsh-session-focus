@@ -1,6 +1,6 @@
 {
   "name": "dsh-session-focus",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Focus marks for DeepSeek Harness: flag the Sessions you are actually working on, park the ones you are waiting on, and keep the count visible even when workspace folders are collapsed. | DSH 焦点标记：标出正在做的会话、把等外部的挂起，工作区折叠时也看得见还有几条在手上。",
   "license": "MIT",
   "author": "凡世祥 <759448154@qq.com>",
