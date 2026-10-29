@@ -8,7 +8,11 @@ This plugin adds the missing layer. It does not replace the sidebar, add a float
 
 ## What it does
 
-![The radar panel](docs/radar.png)
+<p align="center">
+  <img src="docs/preview.svg" width="760" alt="Sidebar marks on the left, the focus panel on the right. Illustration with made-up names.">
+</p>
+
+*Illustration, not a screenshot: the names above are invented.*
 
 **Mark a Session, one click, three places.** The 16px cell before a Session's title cycles `none → focus → parked → none`. The same cycle is on the hover card and on a chip in the conversation header.
 

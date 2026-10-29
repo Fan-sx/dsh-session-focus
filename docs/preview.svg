@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="470" viewBox="0 0 820 470" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+  <defs>
+    <clipPath id="clip"><rect width="820" height="470" rx="14"/></clipPath>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect width="820" height="470" fill="#12141a"/>
+
+    <!-- sidebar -->
+    <rect width="248" height="470" fill="#171a21"/>
+    <line x1="248.5" y1="0" x2="248.5" y2="470" stroke="#242832"/>
+
+    <text x="24" y="38" fill="#8b929e" font-size="12" font-weight="600" letter-spacing=".02em">Workspace</text>
+
+    <!-- folded workspace with dot -->
+    <g>
+      <rect x="16" y="62" width="216" height="30" rx="7" fill="none"/>
+      <path d="M28 70h6l2 3h8v9a1 1 0 0 1-1 1H29a1 1 0 0 1-1-1z" fill="none" stroke="#7c8494" stroke-width="1.3"/>
+      <text x="50" y="81" fill="#cfd4dc" font-size="12.5">acme-web</text>
+      <circle cx="216" cy="77" r="3" fill="#e0a04a" opacity=".8"/>
+    </g>
+
+    <!-- expanded workspace -->
+    <g>
+      <path d="M28 108h6l2 3h8v9a1 1 0 0 1-1 1H29a1 1 0 0 1-1-1z" fill="none" stroke="#7c8494" stroke-width="1.3" transform="rotate(0)"/>
+      <text x="50" y="119" fill="#cfd4dc" font-size="12.5">acme-api</text>
+
+      <!-- session: focus (bar) -->
+      <rect x="50" y="136" width="3" height="15" rx="1.5" fill="#e0a04a"/>
+      <text x="62" y="148" fill="#e6e9ee" font-size="12">Refactor the parser</text>
+      <text x="62" y="163" fill="#7d8492" font-size="10">2 分钟前</text>
+
+      <!-- session: parked (ring) -->
+      <circle cx="51.5" cy="186" r="3.6" fill="none" stroke="#8a8f96" stroke-width="1.4"/>
+      <text x="62" y="190" fill="#e6e9ee" font-size="12">Write the migration</text>
+      <text x="62" y="205" fill="#7d8492" font-size="10">1 小时前</text>
+
+      <!-- session: unmarked -->
+      <text x="62" y="232" fill="#b9bfc9" font-size="12">Review pull request</text>
+      <text x="62" y="247" fill="#7d8492" font-size="10">昨天</text>
+    </g>
+
+    <!-- sessions under another folded workspace -->
+    <g>
+      <path d="M28 268h6l2 3h8v9a1 1 0 0 1-1 1H29a1 1 0 0 1-1-1z" fill="none" stroke="#7c8494" stroke-width="1.3"/>
+      <text x="50" y="279" fill="#cfd4dc" font-size="12.5">acme-infra</text>
+    </g>
+
+    <!-- footer readout -->
+    <line x1="24" y1="418" x2="224" y2="418" stroke="#242832"/>
+    <circle cx="32" cy="440" r="3.5" fill="#4caf7d"/>
+    <text x="44" y="444" fill="#e6e9ee" font-size="12.5">3 条在手上</text>
+
+    <!-- radar panel -->
+    <text x="292" y="52" fill="#8b929e" font-size="11.5" font-weight="600">焦点</text>
+    <text x="330" y="52" fill="#6b7280" font-size="11.5">10月30日 星期五</text>
+    <text x="292" y="86" fill="#f0f2f5" font-size="22" font-weight="600">手上 3 条</text>
+    <circle cx="405" cy="79" r="3.5" fill="#4caf7d"/>
+    <text x="415" y="84" fill="#4caf7d" font-size="12">1 条在等你或正在跑</text>
+
+    <!-- group: running -->
+    <circle cx="297" cy="124" r="3.5" fill="#4caf7d"/>
+    <text x="308" y="128" fill="#9aa1ad" font-size="12" font-weight="500">在跑</text>
+    <text x="338" y="128" fill="#6b7280" font-size="11">1</text>
+    <line x1="292" y1="138" x2="790" y2="138" stroke="#232732"/>
+
+    <rect x="292" y="146" width="3" height="34" rx="1.5" fill="#4caf7d"/>
+    <text x="306" y="162" fill="#e6e9ee" font-size="13">Generate the changelog</text>
+    <text x="306" y="177" fill="#7d8492" font-size="11">acme-api</text>
+    <text x="742" y="162" fill="#7d8492" font-size="11">1 分钟前</text>
+
+    <!-- group: focus -->
+    <circle cx="297" cy="214" r="3.5" fill="#e0a04a"/>
+    <text x="308" y="218" fill="#9aa1ad" font-size="12" font-weight="500">进行中</text>
+    <text x="350" y="218" fill="#6b7280" font-size="11">2</text>
+    <line x1="292" y1="228" x2="790" y2="228" stroke="#232732"/>
+
+    <rect x="292" y="236" width="3" height="34" rx="1.5" fill="#e0a04a"/>
+    <text x="306" y="252" fill="#e6e9ee" font-size="13">Refactor the parser</text>
+    <rect x="452" y="241" width="46" height="17" rx="5" fill="rgba(224,160,74,.14)" stroke="rgba(224,160,74,.45)"/>
+    <text x="461" y="253" fill="#e0a04a" font-size="10.5">进行中</text>
+    <text x="306" y="267" fill="#7d8492" font-size="11">acme-api · 标记于 今天</text>
+    <text x="742" y="252" fill="#7d8492" font-size="11">2 分钟前</text>
+
+    <rect x="292" y="288" width="3" height="34" rx="1.5" fill="#e0a04a"/>
+    <text x="306" y="304" fill="#e6e9ee" font-size="13">Ship the settings page</text>
+    <text x="306" y="319" fill="#7d8492" font-size="11">acme-web · 标记于 今天</text>
+    <text x="742" y="304" fill="#7d8492" font-size="11">3 小时前</text>
+
+    <!-- group: parked -->
+    <circle cx="297" cy="356" r="3.5" fill="#8a8f96"/>
+    <text x="308" y="360" fill="#9aa1ad" font-size="12" font-weight="500">挂起</text>
+    <text x="346" y="360" fill="#6b7280" font-size="11">1</text>
+    <line x1="292" y1="370" x2="790" y2="370" stroke="#232732"/>
+
+    <rect x="292" y="378" width="3" height="34" rx="1.5" fill="#8a8f96"/>
+    <text x="306" y="394" fill="#e6e9ee" font-size="13">Write the migration</text>
+    <text x="306" y="409" fill="#7d8492" font-size="11">acme-api · 标记于 昨天</text>
+    <text x="742" y="394" fill="#7d8492" font-size="11">1 小时前</text>
+
+    <text x="292" y="446" fill="#6b7280" font-size="11">标记会一直留在这里，直到你清除它或者归档那条会话。</text>
+  </g>
+</svg>
